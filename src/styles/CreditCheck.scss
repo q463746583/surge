@@ -1,0 +1,36 @@
+.creditCheck {
+    flex-direction: row;
+    display: flex;
+    background-color: #80ff72;
+    width: 50%;
+    margin-bottom: 5px;
+    height: 8%;
+    border-radius: 0.8rem;
+    // animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground{
+    0%		{ background-color: #faa5b2;}
+    50%		{ background-color: #f5566e;}
+    100%	{ background-color: #f21839;}
+}
+
+@keyframes blinkingBorderColor{
+    0%		{ border-color: white;}
+    50%		{ border-color: #f5566e;}
+    100%	{ border-color: #f21839;}
+}
+
+.text {
+    width: 50%;
+    font-weight: 800;
+}
+
+.limitCheckInput{
+    border: none;
+    border-bottom: 1px solid darkgreen;
+    width: 40%;
+    height: 70%;
+    background: none;
+    font-weight: 800;
+}
